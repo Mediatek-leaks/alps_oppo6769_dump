@@ -1,0 +1,4 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.list_optimize" />
+    <oplus-feature name="oplus.software.super_sleep" />
+</oplus-config>
