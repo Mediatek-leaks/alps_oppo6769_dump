@@ -1,0 +1,8 @@
+on post-fs-data
+    start lowram_device_setup
+service lowram_device_setup /my_product/bin/mm-performance.sh "lowram_device_setup"
+    class core
+    user root
+    group root system
+    disabled
+    oneshot

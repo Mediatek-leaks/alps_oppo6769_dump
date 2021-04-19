@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.u.smallboard.detect.support" />
+    <feature name="com.oppo.eng.magnetic.sensor.support" />
+    <feature name="com.oppo.eng.gravity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.distance.calibration.support" />
+    <feature name="com.oppo.eng.light.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.sensor.selftest.support" />
+    <feature name="com.oppo.eng.stepcounter.sensor.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+	
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.gemini.support" />
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <!--#ifdef ODM_WT_EDIT-->
+    <!--Kaitong.Zhang@ODM_WT.AD.ENGINEERINGMODE,2019/12/05s,add for fast charger not pass -->
+    <feature name="com.oppo.eng.durnning.support" />
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <feature name="com.oppo.eng.network.stancurtest.support" />
+    <feature name="com.oppo.eng.devices.cali.status.check.support" />
+    <!--#endif  ODM_WT_EDIT-->
+    <!--#ifdef ODM_WT_EDIT-->
+    <!--Jinhua.Wan@ODM_WT.AD.ENGINEERINGMODE,2019/12/19,add earpiece sar test -->
+    <feature name="com.oppo.eng.network.sar.earpiece.detect.support" />
+    <!--#endif  ODM_WT_EDIT-->
+
+    <!--#ifdef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2020/04/27,add for fast charger not pass -->
+    <feature name="com.oppo.eng.qc.charge.current.range" value="(-4000,-500)"/>
+    <feature name="com.oppo.eng.qc.charge.current.slow.range" value="(-4000,-200)"/>
+    <feature name="com.oppo.eng.qc.charger.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <!--#endif  ODM_WT_EDIT-->
+
+    <!-- Multimedia feature -->
+
+    <!-- Connectivity feature -->
+
+    <!-- Camera feature -->
+    <feature name="com.oppo.eng.flash.light.calibrate.support"/>
+    <feature name="com.oppo.eng.flash.light.auto.calibrate.support"/>
+    <feature name="com.oppo.eng.flash.light.support"/>
+    <feature name="com.oppo.eng.second.back.camera.support"/>
+    <feature name="com.oppo.eng.camera.dual.calibrate.support"/>
+    <feature name="com.oppo.eng.camera.dual.verificate.support"/>
+    <feature name="com.oppo.eng.camera.dual.calibrate.aftersale.support"/>
+
+    <!-- Android feature -->
+    <!--#ifndef ODM_WT_EDIT-->
+    <!--Rui.Li@ODM_WT.AD.ENGINEERINGMODE,2020/04/21,add for update aging_new -->
+    <!--<feature name="com.oppo.eng.production.line.aging.support" />-->
+    <!--#else ODM_WT_EDIT-->
+    <feature name="com.oppo.eng.production.line.aging.new.support" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+    <feature name="com.oppo.eng.mtk.platform" />
+    <feature name="com.oppo.eng.exp.platform" />
+
+    <feature name="motor.initial.position.hall.data.range" value="10,505"/>
+    <feature name="motor.hall.default.cali.data" value="-200,-200,-480,0,0,-500"/>
+    <feature name="mmi.irq.cali.mode.hall.one.range" value="-490,0"/>
+    <feature name="mmi.irq.cali.mode.hall.two.range" value="-490,0"/>
+    <feature name="mmi.near.cali.mode.hall.one.range" value="-500,0"/>
+    <feature name="mmi.near.cali.mode.hall.two.range" value="-150,0"/>
+    <feature name="mmi.far.cali.mode.hall.one.range" value="-150,0"/>
+    <feature name="mmi.far.cali.mode.hall.two.range" value="-480,-150"/>
+
+    <feature name="as.manual.irq.cali.mode.hall.one.range" value="130,450"/>
+    <feature name="as.manual.irq.cali.mode.hall.two.range" value="200,470"/>
+    <feature name="as.manual.near.cali.mode.hall.one.range" value="200,469"/>
+    <feature name="as.manual.near.cali.mode.hall.two.range" value="0,100"/>
+    <feature name="as.manual.far.cali.mode.hall.one.range" value="0,100"/>
+    <feature name="as.manual.far.cali.mode.hall.two.range" value="210,494"/>
+    <feature name="as.manual.near.slow.down.delta.array" value="55,50,45,40,35,30,25,20"/>
+    <feature name="as.manual.near.slow.down.delta.default.index" value="3"/>
+    <feature name="as.manual.near.irq.delta" value="70"/>
+    <feature name="as.manual.far.slow.down.delta.array" value="50,45,40,35,30,25,20,15,10"/>
+    <feature name="as.manual.far.slow.down.delta.default.index" value="7"/>
+    <feature name="as.manual.far.irq.delta" value="40"/>
+
+    <feature name="manual.irq.cali.mode.hall.one.range" value="130,450"/>
+    <feature name="manual.irq.cali.mode.hall.two.range" value="200,470"/>
+    <feature name="manual.near.cali.mode.hall.one.range" value="200,469"/>
+    <feature name="manual.near.cali.mode.hall.two.range" value="0,100"/>
+    <feature name="manual.far.cali.mode.hall.one.range" value="0,100"/>
+    <feature name="manual.far.cali.mode.hall.two.range" value="210,494"/>
+    <feature name="manual.near.slow.down.delta.array" value="55,50,45,40,35,30,25,20"/>
+    <feature name="manual.near.slow.down.delta.default.index" value="3"/>
+    <feature name="manual.near.irq.delta" value="70"/>
+    <feature name="manual.far.slow.down.delta.array" value="50,45,40,35,30,25,20,15,10"/>
+    <feature name="manual.far.slow.down.delta.default.index" value="7"/>
+    <feature name="manual.far.irq.delta" value="40"/>
+    <feature name="motor.self.test.near.delta.range" value="20,50"/>
+    <feature name="motor.self.test.far.delta.range" value="0,30"/>
+
+    <feature name="com.oppo.eng.motor.hall.calibration.mode" value="CALIBRATION_ONE" />
+
+    <!-- Camera parameters -->
+    <feature name="com.oppo.eng.camera.calibration.rear.size" value="4000x3000"/>
+    <feature name="com.oppo.eng.camera.calibrate.second.rear.size" value="2592x1944"/>
+    <feature name="com.oppo.eng.camera.portrait.size" value="4000x3000"/>
+
+</features>

@@ -1,0 +1,16 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oppo.back.touch.fingerprint.sensor" />
+ <!--   <feature name="oppo.hardware.fingerprint.optical.support" />-->
+    <!-- Enable Zero Touch Provisioning support. -->
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+    <feature name="oppo.lcd.first.tp.last.support"/>
+    <!-- sumit.tiwary@APP.DocVault, 08/01/2020, Adding the feature check for DocVault -->
+    <feature name="oppo.docvault.support" />
+    <!-- fanlijun@RM.AD.fingerprint, 2019/11/20, add for fingerprint keymode -->
+    <feature name="oppo.camera.fingerprint.shutter" />
+    <!-- Tan.Hongguang@ANDROID.face, 2020/11/9, Add for face unlock -->
+    <oplus-feature name="oplus.software.face_nopowerblock" />
+</permissions>

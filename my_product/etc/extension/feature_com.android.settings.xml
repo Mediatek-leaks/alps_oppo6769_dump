@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.settings.list_optimize" />
+    <app_feature name="com.android.settings.super_sleep" />
+</extend_features>

@@ -1,0 +1,71 @@
+
+# InitEnv
+
+# Build.java
+ro.build.id=RP1A.200720.011
+ro.product.manufacturer=realme
+ro.product.brand=realme
+ro.product.model=RMX2193
+ro.product.name=RMX2193EEA
+ro.product.device=RMX2193
+ro.product.first_api_level=29
+ro.build.version.incremental=1614320228960
+ro.build.version.base_os=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1609930834433:user/release-keys
+ro.build.version.release=11
+ro.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.odm.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.odm.build.version.incremental=1614320228960
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.model=RMX2193
+ro.product.odm.device=RMX2193
+ro.product.odm.name=RMX2193EEA
+ro.odm.build.date=Fri Mar 26 00:53:15 CST 2021
+ro.odm.build.date.utc=1616691195
+ro.system.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.system.build.version.incremental=1614320228960
+ro.product.system.brand=realme
+ro.product.system.manufacturer=realme
+ro.product.system.model=RMX2193
+ro.product.system.device=RMX2193
+ro.product.system.name=RMX2193EEA
+ro.system.build.date=Fri Mar 26 00:53:15 CST 2021
+ro.system.build.date.utc=1616691195
+ro.bootimage.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.bootimage.build.version.incremental=1614320228960
+ro.product.bootimage.brand=realme
+ro.product.bootimage.manufacturer=realme
+ro.product.bootimage.model=RMX2193
+ro.product.bootimage.device=RMX2193
+ro.product.bootimage.name=RMX2193EEA
+ro.bootimage.build.date=Fri Mar 26 00:53:15 CST 2021
+ro.bootimage.build.date.utc=1616691195
+ro.vendor.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.vendor.build.version.incremental=1614320228960
+ro.product.vendor.brand=realme
+ro.product.vendor.manufacturer=realme
+ro.product.vendor.model=RMX2193
+ro.product.vendor.device=RMX2193
+ro.product.vendor.name=RMX2193EEA
+ro.vendor.build.date=Fri Mar 26 00:53:15 CST 2021
+ro.vendor.build.date.utc=1616691195
+ro.system_ext.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.system_ext.build.version.incremental=1614320228960
+ro.product.system_ext.brand=realme
+ro.product.system_ext.manufacturer=realme
+ro.product.system_ext.model=RMX2193
+ro.product.system_ext.device=RMX2193
+ro.product.system_ext.name=RMX2193EEA
+ro.system_ext.build.date=Fri Mar 26 00:53:15 CST 2021
+ro.system_ext.build.date.utc=1616691195
+ro.product.build.fingerprint=realme/RMX2193EEA/RMX2193:11/RP1A.200720.011/1614320228960:user/release-keys
+ro.product.build.version.incremental=1614320228960
+ro.product.product.brand=realme
+ro.product.product.manufacturer=realme
+ro.product.product.model=RMX2193
+ro.product.product.device=RMX2193
+ro.product.product.name=RMX2193EEA
+ro.product.build.date=Fri Mar 26 00:53:15 CST 2021
+ro.product.build.date.utc=1616691195
+
+# OPPO
